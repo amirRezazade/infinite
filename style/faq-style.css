@@ -1,0 +1,99 @@
+/* start faq style  */
+.faq {
+    width: 100%;
+    height: auto;
+    margin: 3rem 0;
+    padding: 3rem;
+  }
+  .faq__title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+  }
+  .faq__title-text {
+    font-size: 1.2rem;
+    color: #389cf9;
+    font-weight: 600;
+  }
+  .faq-header {
+    display: block;
+    margin: 2rem auto;
+    text-align: center;
+    font-size: 3.5rem;
+    color: white;
+    font-weight: 800;
+  }
+  .faq__accordions {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .faq__left-accordions {
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+  }
+  .faq__right-accordions {
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+  }
+  .faq__accordions-item {
+    width: 100%;
+    height: 110px;
+    overflow: hidden;
+    padding: 0 1rem;
+    transition: all .5s ease;
+  }
+  .faq__accordions-btn{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(33, 33, 33);
+    padding:1.5rem 2rem;
+    border-radius: .5rem;
+    margin: 1.7rem 0;
+    transition: all .4s ease;
+    color: white;
+    cursor: pointer;
+  }
+  .faq__accordions-btn-active{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right bottom , #0084ff , #7ab7f0);
+    padding:1.5rem 2rem;
+    border-radius: .5rem;
+    margin: 1.7rem 0;
+    transition: all .4s ease;
+    color: white;
+  }
+  .faq__accordions-btn-def:hover{
+    color: #389cf9;
+  
+  }
+  .faq__accordions-btn-text {
+    font-size: 1.3rem;
+    font-weight: 800;
+  }
+  .faq__accordions-btn-icon {
+  
+    font-size: 1.2rem;
+  }
+  
+  .faq__accordion-item-content {
+    padding:0 2rem;
+  }
+  .faq__accordion-item-content-text {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+  }
+  /* finish faq style  */

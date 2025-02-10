@@ -1,0 +1,99 @@
+@import url(header-style.css);
+@import url(about-us-style.css);
+@import url(our-steps-style.css);
+@import url(studies.style.css);
+@import url(testimonial-style.css);
+@import url(staff-style.css);
+@import url(faq-style.css);
+@import url(footer-style.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  height: auto;
+}
+html {
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar {
+  width: 4px;
+}
+
+html::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--text-hover-color);
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: var(--text-hover-color);
+}
+:root {
+  --background-color: #000000;
+  --text-color: #d4d6d7;
+  --text-hover-color: #77beff;
+}
+body {
+  height: auto;
+  min-height: 100vh;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+
+.upto-top {
+  position: fixed;
+  bottom: 10px;
+  right: 40px;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .5s ease;
+}
+.upto-top-active{
+  opacity: 1;
+  visibility: visible;
+  bottom: 40px;
+}
+
+
+.upto-top-content {
+  transform: rotate(-90deg);
+
+}
+
+.upto-top-circle-bg {
+  fill: #000000;
+  stroke: #272727;
+  stroke-width: 3;
+}
+
+.upto-top-circle {
+  fill: none;
+  stroke: #77beff;
+  stroke-width: 3;
+  stroke-dasharray: 251; /* محیط دایره (2 * π * r) */
+  stroke-dashoffset: 251; /* شروع با دایره خالی */
+  transition: stroke-dashoffset 0.2s ease;
+}
+
+.upto-top-arrow{
+  position: absolute;
+  color: #77beff;
+  font-size: 1.2rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}

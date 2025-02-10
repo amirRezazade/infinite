@@ -1,0 +1,195 @@
+/* start infinite section style  */
+.about-us {
+    margin: 3rem 0;
+    padding: 3rem;
+  }
+  .about-us__title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .about-us__title_text {
+    color: #1385ef;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  .about-us__content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-us__content__left {
+    width: 60%;
+    height: 100%;
+    /* background-color: red; */
+  }
+  
+  .about-us__content__left__title {
+    color: white;
+    margin: 2.5rem 0;
+    font-size: 5rem;
+    font-weight: bold;
+  }
+  .about-us__content__left__content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  .about-us__content__left__content-left {
+    width: 30%;
+    height: auto;
+    background-color: red;
+  }
+  .about-us__content__left__content-left-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .about-us__content__left__content-right {
+    width: 70%;
+    height: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .about-us__content__left__content-right-text {
+    font-size: 1.14rem;
+    line-height: 2rem;
+  }
+  .about-us__content__right {
+    width: 40%;
+    height: 100%;
+    padding: 2rem;
+  }
+  .about-us__content__right__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .about-us__left__footer {
+    margin: 4rem 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+  .about-us__left__footer__left {
+    width: 50%;
+  }
+  .about-us__left__footer__left-text {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 1rem;
+  }
+  .about-us__left__footer__left-text__number {
+    font-size: 3rem;
+  }
+  .about-us__left__footer__left-text__text {
+    padding-right: 5rem;
+    font-size: 1.7rem;
+  }
+  .about-us__left__footer__left__progress {
+    width: 100%;
+    height: 4px;
+    background-color: rgba(172, 172, 172, 0.251);
+    margin: 2rem 0;
+    position: relative;
+  }
+  .about-us__left__footer__left__progressbar {
+    position: absolute;
+    width: 13%;
+    height: 100%;
+    background: linear-gradient(to right, #0084ff, #77c6ff);
+  }
+  .about-us__left__footer__right {
+    width: 50%;
+  }
+  .about-us__left__footer__right-text {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 1rem;
+  }
+  .about-us__left__footer__right-text__number {
+    font-size: 3rem;
+  }
+  .about-us__left__footer__right-text__text {
+    padding-right: 5rem;
+    font-size: 1.7rem;
+  }
+  .about-us__left__footer__right__progress {
+    width: 100%;
+    height: 4px;
+    background-color: rgba(172, 172, 172, 0.251);
+    margin: 2rem 0;
+    position: relative;
+  }
+  .about-us__left__footer__right__progressbar {
+    position: absolute;
+    width: 53%;
+    height: 100%;
+    background: linear-gradient(to right, #0084ff, #77c6ff);
+  }
+  
+  .scroll-animation {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  .scroll-animation__list {
+    width:auto;
+    height: auto;
+    white-space: nowrap;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 1.3rem;
+    animation: scrollItem 15s infinite linear;
+  }
+  @keyframes scrollItem {
+    0%{
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  .scrool-animation__item {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    padding: 0 1rem;
+  }
+  .scrool-animation__item-img {
+  }
+  .scrool-animation__item-text {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000000;
+    text-shadow: 0 0 0 rgb(53, 53, 53), 1px 1px 0 rgb(71, 71, 71),
+      -1px -1px 0 rgb(56, 56, 56);
+    user-select: none;
+    transition: all 0.4s ease;
+  }
+  .scrool-animation__item:hover .scrool-animation__item-text {
+    color: white;
+  }
+  
+  /* finish infinite section style  */
+  
+
+
